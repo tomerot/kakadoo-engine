@@ -117,3 +117,7 @@ On AWS, for example, the Query and Data Fetcher microservices could run as Lambd
 5. If you added a Gemini key, set `GEMINI_MODEL` in the AWS Chatbot cell to the Gemini model you want to use. The project was built with `gemini-1.5-flash`, which may be retired by the time you run this; if so, choose any current Gemini model.
 6. Run all cells. The dashboard appears under the last cell.
 7. On the first run, click **Admin Page** (demo password: `123456`), then **Recreate Index** to crawl AWS and build the index. With the default limit of 200 pages, this took about 2 minutes on Colab when the project was developed; the time can change as the AWS website changes. To index more pages, set `max_urls` where the Crawler is created in the last cell, for example `CrawlerService(max_urls=500)`. More pages take longer to crawl.
+
+## Documentation
+
+- [User Guide](docs/user-guide.md) – how to use each feature, step by step.
