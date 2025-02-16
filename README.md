@@ -121,3 +121,4 @@ On AWS, for example, the Query and Data Fetcher microservices could run as Lambd
 ## Documentation
 
 - [User Guide](docs/user-guide.md) – how to use each feature, step by step.
+- [Maintainer Guide](docs/maintainer-guide.md) – setup, code structure, database layout and maintenance.
